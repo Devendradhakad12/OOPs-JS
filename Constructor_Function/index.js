@@ -10,14 +10,7 @@ function BanckAccount(customerName, balance = 0) {
     this.balance -= amount;
   };
 }
-
-/* const devAccount = new BanckAccount("Dev", 1000);
-devAccount.withdraw(500);
-console.log(devAccount);
-
-const mahakAccount = new BanckAccount("Mahak");
-mahakAccount.deposit(5000);
-console.log(mahakAccount); */
+ 
 
 // Dom
 const accountForm = document.querySelector("#accountForm");
@@ -54,3 +47,13 @@ depositForm.addEventListener("submit", (e) => {
  account.deposit(Number(depositAmount.value))
   console.log(Accounts);
 });
+
+
+
+/* const devAccount = new BanckAccount("Dev", 1000);
+devAccount.withdraw(500);
+console.log(devAccount);
+
+const mahakAccount = new BanckAccount("Mahak");
+mahakAccount.deposit(5000);
+console.log(mahakAccount); */
